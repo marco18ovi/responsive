@@ -327,6 +327,7 @@ body {
   .container {
     /* border: 1px solid red; */
     max-width: 1000px;
+    /* flex:1; podemos usarlo enves de usar la funcion with:100% son iguales*/
     width: 100%;
     margin: 0 auto;
     display: inherit;
@@ -339,7 +340,11 @@ body {
   @media screen and (max-width: 1024px) {
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
+    .header{
+      display: block;
+      height: auto;
+    }
   }
 
   @media screen and (max-width: 480px) {
