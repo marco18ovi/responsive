@@ -345,6 +345,18 @@ body {
       display: block;
       height: auto;
     }
+    .header ol {
+      display:block;
+    }
+    .header ol li {
+      height: 40px;
+    }
+    .header a {
+      justify-content: center;
+    }
+    .header .logo {
+      text-align: center;
+    }
   }
 
   @media screen and (max-width: 480px) {
