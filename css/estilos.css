@@ -327,6 +327,7 @@ body {
   .container {
     /* border: 1px solid red; */
     max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
