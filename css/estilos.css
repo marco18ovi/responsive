@@ -360,6 +360,13 @@ body {
     .project{
       display: block;
     }
+    .project-imageContainer {
+      width: auto;
+      text-align: center;
+    }
+    .project-details {
+      width: auto;
+    }
   }
 
   @media screen and (max-width: 480px) {
