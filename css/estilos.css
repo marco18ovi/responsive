@@ -370,10 +370,35 @@ body {
     }
     .project-details {
       width: auto;
+      font-size: 16px;
     }
+    .project-course, .project-date, .project-url{
+      margin: .3em,0;
+    }
+    .project-title{
+font-size: 1.5em;
+margin-bottom: .3em;
+    }
+    .project-url {
+      font-size: 1em;
+    }
+    .project-course {
+      font-size: 0.7em;
+    }
+    .project-date {
+      font-size: 1em;
+    }
+    .project-description {
+      font-size: 0.8em;
+    }
+
   }
 
   @media screen and (max-width: 480px) {
+    .project-details {
+      width: auto;
+      font-size: 12px;
+    }
   }
 
   @media screen and (max-width: 320px) {
