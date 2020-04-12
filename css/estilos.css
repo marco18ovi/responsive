@@ -147,6 +147,10 @@ body {
   .project-imageContainer {
     width: 50%;
   }
+  .project-imageContainer img {
+    max-width: 100%;
+
+  }
   
   .header {
     background-color: #1b2127;
