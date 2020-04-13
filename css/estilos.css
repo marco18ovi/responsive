@@ -424,6 +424,7 @@ margin-bottom: .3em;
     .footer {
       display: block;
       text-align: center;
+      border: 1px solid transparent;
     }
   }
 
