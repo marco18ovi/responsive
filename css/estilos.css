@@ -342,6 +342,9 @@ body {
   }
 
   @media screen and (max-width: 1024px) {
+    .container {
+      padding: 0 1em;
+    }
   }
 
   @media screen and (max-width: 767px) {
