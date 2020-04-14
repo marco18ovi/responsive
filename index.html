@@ -153,14 +153,27 @@
       </div>
     </footer> 
     <script>
-      console.log("hola mundo es mi primera linea en js");
-
+      // console.log("hola mundo es mi primera linea en js");
+      const ipad = window.matchMedia("screen and (max-width: 767px)")
       const menu = document.querySelector(".menu");
-      console.log(menu);
+      // console.log(menu);
       const burgerbutton = document.querySelector("#burger-menu");
-      console.log(burgerbutton);
+      // console.log(burgerbutton);
 
+
+      // ipad.addlistener(validation)
+      if (ipad.matches){
+      burgerbutton.addEventListener("click", hideshow);
+      } else {
+        ipad.addListener(validation)
+      }
+      function validation(event){
+        if (event.matches){
       burgerbutton.addEventListener("click", hideshow)
+        } else {
+      burgerbutton.removeEventListener("click", hideshow)
+        }
+      }
 
       function hideshow() {
         if (menu.classList.contains("is-active")){
