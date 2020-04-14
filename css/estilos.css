@@ -442,9 +442,24 @@ body {
     }
     .header a {
       justify-content: center;
+      height: 80px;
+      font-size: 1.6em;
+      margin-bottom: 0.5em;
     }
     .header .logo {
       text-align: center;
+    }
+    .menu{
+      position: fixed; 
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 3;
+      top: 0;
+      left: -50vw;
+      width: 50vw;
+      height: 23vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .project{
       display: block;
