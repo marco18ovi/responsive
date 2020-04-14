@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="fonts.css">
   </head>
   <body>
-    <i class="icon-menu burger-button"></i>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
     <header class="header">
       <div class="container">
         <figure class="logo">
@@ -152,5 +152,24 @@
         </div>
       </div>
     </footer> 
+    <script>
+      console.log("hola mundo es mi primera linea en js");
+
+      const menu = document.querySelector(".menu");
+      console.log(menu);
+      const burgerbutton = document.querySelector("#burger-menu");
+      console.log(burgerbutton);
+
+      burgerbutton.addEventListener("click", hideshow)
+
+      function hideshow() {
+        if (menu.classList.contains("is-active")){
+          menu.classList.remove("is-active");
+        } else{
+      menu.classList.add("is-active");
+        }
+      }
+    </script>
+    </script>
   </body>
 </html>
